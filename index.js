@@ -1,6 +1,6 @@
 const cowsay = require("cowsay");
-const {name, school, campus} = require("./information");
+const info = require("./information.js");
 
 console.log(cowsay.say({
-    text: `I'm ${name} from ${school} ${campus}`
+    text: `I'm ${info.name} from ${info.school} ${info.campus}`
 }))

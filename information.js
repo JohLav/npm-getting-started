@@ -1,9 +1,7 @@
-const name = "Johana";
-const school = "Wild Code School";
-const campus = "Lyon";
-
-module.exports = {
-    name: name,
-    school: school,
-    campus: campus
+const info = {
+    name: "Johana",
+    school: "Wild Code School",
+    campus: "Lyon"
 }
+
+module.exports = info
